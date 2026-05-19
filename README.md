@@ -49,6 +49,15 @@ jupyter notebook Breast_Cancer_Classification.ipynb
 
 Run all cells to train the model and view accuracy metrics.
 
+## Results
+
+Logistic regression on an 80/20 train–test split (default `random_state` in the notebook):
+
+| Split | Accuracy |
+|-------|----------|
+| Training | **94.9%** (0.949) |
+| Test | **93.0%** (0.930) |
+
 ## Dataset
 
 The [Wisconsin Breast Cancer Diagnostic dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html) provides 30 numeric features derived from digitized fine needle aspirate images. Labels indicate malignant (`0`) or benign (`1`) diagnosis.
